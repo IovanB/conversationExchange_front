@@ -6,6 +6,8 @@ export interface Member {
     photoUrl: string;
     age: number;
     knownAs: string;
+    nativeLanguage: string;
+    targetLanguage: string;
     created: Date;
     lastActive: Date;
     gender: string;

@@ -46,6 +46,10 @@
                     <textarea class="form-control"  [(ngModel)]="member.interests" name="interests" row="6"></textarea>
                     <h4 class="mt-2">Location Details: </h4>
                     <div class="form-inline">
+                        <label for="city">Native Language: </label>
+                        <input  [(ngModel)]="member.nativeLanguage" type="text" name="nativeLanguage" class="form-control mx-2">
+                        <label for="city">Target Language: </label>
+                        <input  [(ngModel)]="member.targetLanguage" type="text" name="targetLanguage" class="form-control mx-2">
                         <label for="city">City: </label>
                         <input  [(ngModel)]="member.city" type="text" name="city" class="form-control mx-2">
                         <label for="city">Country: </label>
