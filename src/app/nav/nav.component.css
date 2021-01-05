@@ -1,0 +1,9 @@
+dropdown-toggle, .dropdown-item{
+    cursor: context-menu;
+}
+
+img {
+    max-height: 40px;
+    display: inline;
+    border-radius: 50%;
+}
