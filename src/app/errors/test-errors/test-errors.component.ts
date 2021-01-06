@@ -17,7 +17,7 @@ export class TestErrorsComponent implements OnInit {
   }
 
   get404Error(){
-    this.http.get(this.baseUrl + 'buggy/not-found').subscribe(response => {
+    this.http.get(this.baseUrl + 'httperror/not-found').subscribe(response => {
       console.log(response);
     }, error => {
       console.log(error);
@@ -26,7 +26,7 @@ export class TestErrorsComponent implements OnInit {
 
   
   get400Error(){
-    this.http.get(this.baseUrl + 'buggy/bad-request').subscribe(response => {
+    this.http.get(this.baseUrl + 'httperror/bad-request').subscribe(response => {
       console.log(response);
     }, error => {
       console.log(error);
@@ -35,7 +35,7 @@ export class TestErrorsComponent implements OnInit {
 
   
   get500Error(){
-    this.http.get(this.baseUrl + 'buggy/server-error').subscribe(response => {
+    this.http.get(this.baseUrl + 'httperror/server-error').subscribe(response => {
       console.log(response);
     }, error => {
       console.log(error);
@@ -44,7 +44,7 @@ export class TestErrorsComponent implements OnInit {
 
   
   get401Error(){
-    this.http.get(this.baseUrl + 'buggy/auth').subscribe(response => {
+    this.http.get(this.baseUrl + 'httperror/auth').subscribe(response => {
       console.log(response);
     }, error => {
       console.log(error);
