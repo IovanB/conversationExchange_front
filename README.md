@@ -1,6 +1,28 @@
-# Client
+# Conversation Exchange Front-End
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+Angular 9 project for studying purposes. Conversation Exchange is a website to find native speakers in order to boost your studies in your target language. You will be able to find someone on this website list, chat with them, add as a friend and share knowledge. 
+
+This project has an API with the same name, called by HttpClient class, which you can register, update profile information, change pictures, upload photos and see other members. 
+
+Points alread made:
+1. Call the API with HttpClient
+2. Error handling with interceptors
+3. Unauthorize route by guard
+4. Temporary template using bootstrap
+5. 404 redirections
+6. Register page with validation
+7. Login on navbar
+8. Update profile page and pictures with integration with cloudinary
+9. Pagination on the member list template
+
+Points being developed:
+1. Pagination
+2. Filtering members template
+3. Sorting members template
+4. Add Friend feature
+5. Live messages feature
+6. Role management
+
 
 ## Development server
 
