@@ -4,7 +4,7 @@ Angular 9 project for studying purposes. Conversation Exchange is a website to f
 
 This project has an API with the same name, called by HttpClient class, which you can register, update profile information, change pictures, upload photos and see other members. 
 
-Points alread made:
+<strong>Points alread made:</strong>
 1. Call the API with HttpClient
 2. Error handling with interceptors
 3. Unauthorize route by guard
@@ -15,7 +15,7 @@ Points alread made:
 8. Update profile page and pictures with integration with cloudinary
 9. Pagination on the member list template
 
-Points being developed:
+<strong>Points being developed:</strong>
 1. Pagination
 2. Filtering members template
 3. Sorting members template
