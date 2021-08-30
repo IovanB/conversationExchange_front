@@ -6,4 +6,5 @@ export interface User{
     gender: string;
     nativeLanguage: string;
     targetLanguage: string;
+    roles:string[];
 }
